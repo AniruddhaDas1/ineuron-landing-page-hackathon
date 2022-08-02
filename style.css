@@ -533,7 +533,7 @@ button{
 }
 /* Mobile Responsive / Meadia Query */
 /* Category button disable for mobile */
-@media screen and (max-width:640px){
+@media screen and (min-width:280px) and (max-width:740px){
     *{
 
     }
@@ -557,7 +557,7 @@ button{
     }
     
 
-    
+
     .footers{
         display: none;
     }
